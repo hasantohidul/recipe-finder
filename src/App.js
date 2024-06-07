@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home recipes={recipes} onSearch={handleSearch} />} />
-        <Route path="/recipe/:id" element={<RecipePage recipes={recipes} />} />sa
+        <Route path="/recipe/:id" element={<RecipePage recipes={recipes} />} />
       </Routes>
     </Router>
   )
